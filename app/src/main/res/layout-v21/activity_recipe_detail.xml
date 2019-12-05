@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:background="@color/colorPrimaryDark"
+    tools:context="com.example.RecipeApp.activity.RecipeDetailActivity">
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    tools:context="com.example.RecipeApp.activity.RecipeDetailActivity">
+
+    <TextView
+        android:id="@+id/tv_recipe_detail_recipe_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/string_recipe_name"
+        android:textColor="@android:color/white"
+        android:textStyle="bold"
+        android:letterSpacing="1.0"
+        android:textAlignment="center"
+        android:padding="30dp"
+        android:textAllCaps="true"
+        />
+
+    <TextView
+        android:id="@+id/tv_recipe_detail_recipe_serving_info"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@android:color/white"
+        android:textAlignment="center"
+        android:textStyle="italic"
+        android:layout_margin="16dp"
+        android:text="@string/string_recipe_serving_info"
+        />
+
+    <TextView
+        android:id="@+id/tv_recipe_detail_recipe_ingredients"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@android:color/white"
+        android:textStyle="bold"
+        android:text="@string/string_recipe_ingredients"
+        android:paddingLeft="24dp"
+        android:paddingRight="24dp"
+        android:paddingTop="24dp"
+        android:paddingBottom="8dp"
+        />
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/rv_recipe_detail_recipe_ingredients"
+        android:paddingTop="8dp"
+        android:paddingLeft="24dp"
+        android:paddingRight="24dp"
+        android:paddingBottom="24dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <TextView
+        android:id="@+id/tv_recipe_detail_recipe_steps"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/string_recipe_steps_cooking"
+        android:paddingTop="24dp"
+        android:paddingLeft="24dp"
+        android:paddingRight="24dp"
+        android:paddingBottom="8dp"
+        />
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/rv_recipe_detail_recipe_steps"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingLeft="24dp"
+        android:paddingRight="24dp"
+        android:paddingTop="8dp"
+        android:paddingBottom="24dp"
+        />
+
+
+    <com.google.android.exoplayer2.ui.SimpleExoPlayerView
+        android:layout_margin="24dp"
+        android:id="@+id/video_view"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"/>
+
+
+</LinearLayout>
+</ScrollView>

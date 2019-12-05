@@ -1,6 +1,7 @@
 package com.example.RecipeApp.fragment;
 
 
+import android.content.Intent;
 import android.os.Bundle;
 
 import androidx.fragment.app.Fragment;
@@ -15,6 +16,7 @@ import android.view.ViewGroup;
 import com.example.RecipeApp.R;
 import com.example.RecipeApp.adapter.RecipeListAdapter;
 import com.example.RecipeApp.datamodel.Recipe;
+import com.example.RecipeApp.interfaces.OnListClickedListener;
 import com.example.RecipeApp.rest.ApiClient;
 import com.example.RecipeApp.rest.ApiInterface;
 import com.google.gson.Gson;
@@ -29,7 +31,7 @@ import retrofit2.Response;
 /**
  * A simple {@link Fragment} subclass.
  */
-public class RecipeFragment extends Fragment {
+public class RecipeFragment extends Fragment implements OnListClickedListener {
     RecyclerView recipeListRecycler;
     RecipeListAdapter recipeListAdapter = null;
     ArrayList<Recipe> recipeArrayList;
@@ -88,4 +90,8 @@ public class RecipeFragment extends Fragment {
         return view;
     }
 
+    @Override
+    public void onListClicked() {
+        Intent intent = new Intent();
+    }
 }

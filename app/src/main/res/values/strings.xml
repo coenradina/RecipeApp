@@ -4,4 +4,8 @@
     <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment">Hello blank fragment</string>
     <string name="string_recipe_list_row_recipe_name">Recipe Name</string>
+    <string name="string_recipe_name">recipe name</string>
+    <string name="string_recipe_serving_info">serving info</string>
+    <string name="string_recipe_ingredients">ingredients</string>
+    <string name="string_recipe_steps_cooking">steps</string>
 </resources>
