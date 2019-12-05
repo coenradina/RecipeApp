@@ -1,4 +1,4 @@
-package com.example.bakerzin;
+package com.example.RecipeApp;
 
 import org.junit.Test;
 

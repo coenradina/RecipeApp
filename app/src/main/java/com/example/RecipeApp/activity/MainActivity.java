@@ -1,11 +1,11 @@
-package com.example.bakerzin.activity;
+package com.example.RecipeApp.activity;
 
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.appcompat.widget.Toolbar;
 import androidx.viewpager.widget.ViewPager;
 
-import com.example.bakerzin.R;
-import com.example.bakerzin.adapter.TabPagerAdapter;
+import com.example.RecipeApp.R;
+import com.example.RecipeApp.adapter.TabPagerAdapter;
 import com.google.android.material.tabs.TabLayout;
 
 import android.os.Bundle;

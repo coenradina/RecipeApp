@@ -1,4 +1,4 @@
-package com.example.bakerzin.rest;
+package com.example.RecipeApp.rest;
 
 import com.google.gson.Gson;
 import com.google.gson.GsonBuilder;

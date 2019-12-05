@@ -1,4 +1,4 @@
-package com.example.bakerzin.adapter;
+package com.example.RecipeApp.adapter;
 
 import android.view.LayoutInflater;
 import android.view.View;
@@ -8,8 +8,8 @@ import android.widget.TextView;
 import androidx.annotation.NonNull;
 import androidx.recyclerview.widget.RecyclerView;
 
-import com.example.bakerzin.R;
-import com.example.bakerzin.datamodel.Recipe;
+import com.example.RecipeApp.R;
+import com.example.RecipeApp.datamodel.Recipe;
 
 import java.util.ArrayList;
 

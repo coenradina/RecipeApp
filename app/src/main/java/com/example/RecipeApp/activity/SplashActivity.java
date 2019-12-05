@@ -1,11 +1,11 @@
-package com.example.bakerzin.activity;
+package com.example.RecipeApp.activity;
 
 import android.app.Activity;
 import android.content.Intent;
 import android.os.Bundle;
 import android.os.Handler;
 
-import com.example.bakerzin.R;
+import com.example.RecipeApp.R;
 
 public class SplashActivity extends Activity {
 

@@ -1,6 +1,6 @@
-package com.example.bakerzin.rest;
+package com.example.RecipeApp.rest;
 
-import com.example.bakerzin.datamodel.Recipe;
+import com.example.RecipeApp.datamodel.Recipe;
 
 import java.util.ArrayList;
 

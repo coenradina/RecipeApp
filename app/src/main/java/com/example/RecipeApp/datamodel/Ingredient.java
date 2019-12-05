@@ -1,5 +1,5 @@
 
-package com.example.bakerzin.datamodel;
+package com.example.RecipeApp.datamodel;
 
 import com.google.gson.annotations.Expose;
 import com.google.gson.annotations.SerializedName;

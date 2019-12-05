@@ -1,4 +1,4 @@
-package com.example.bakerzin.fragment;
+package com.example.RecipeApp.fragment;
 
 
 import android.os.Bundle;
@@ -12,11 +12,11 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 
-import com.example.bakerzin.R;
-import com.example.bakerzin.adapter.RecipeListAdapter;
-import com.example.bakerzin.datamodel.Recipe;
-import com.example.bakerzin.rest.ApiClient;
-import com.example.bakerzin.rest.ApiInterface;
+import com.example.RecipeApp.R;
+import com.example.RecipeApp.adapter.RecipeListAdapter;
+import com.example.RecipeApp.datamodel.Recipe;
+import com.example.RecipeApp.rest.ApiClient;
+import com.example.RecipeApp.rest.ApiInterface;
 import com.google.gson.Gson;
 
 import java.util.ArrayList;

@@ -1,4 +1,4 @@
-package com.example.bakerzin.adapter;
+package com.example.RecipeApp.adapter;
 
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
@@ -6,8 +6,8 @@ import androidx.fragment.app.Fragment;
 import androidx.fragment.app.FragmentManager;
 import androidx.fragment.app.FragmentStatePagerAdapter;
 
-import com.example.bakerzin.fragment.FavouriteFragment;
-import com.example.bakerzin.fragment.RecipeFragment;
+import com.example.RecipeApp.fragment.FavouriteFragment;
+import com.example.RecipeApp.fragment.RecipeFragment;
 
 public class TabPagerAdapter extends FragmentStatePagerAdapter {
     public TabPagerAdapter(@NonNull FragmentManager fm) {
